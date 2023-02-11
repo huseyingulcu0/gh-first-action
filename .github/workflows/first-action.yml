@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World!"
       - name: Goodbye 
         run: echo "Goodbye"
+      - name: Multiline Shell Commands
+        run: |
+            echo "First Line"
+            echo "Second Line"
